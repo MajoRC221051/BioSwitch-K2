@@ -173,21 +173,20 @@ The system couples logistic biomass growth, biosignature gas production proporti
 
 It reveals three structured regimes:
 
-- **No Life Regime**: Biomass collapses under environmental stress.  
-- **Detectable Life Regime**: Biomass persists and gas exceeds detection thresholds.  
-- **Hidden Life Regime**: Biomass remains stable while gas accumulation remains below instrumental limits due to UV suppression.
+- **No Life Regime**
+- **Detectable Life Regime**
+- **Hidden Life Regime**
 
 The Hidden Life regime represents a physically plausible false negative.
 """)
 
-st.markdown('<div class="section-title">Scientific Relevance</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-title">Scientific Relevance</div>', unsafe_allow_html=True)
 
-st.markdown("""
+    st.markdown("""
 As atmospheric characterization improves, interpretation becomes critical. Non-detection of biosignatures cannot be directly equated with biological absence.
 
-BioSwitch-K2 highlights the importance of considering stellar radiation environments and atmospheric destruction mechanisms when evaluating temperate exoplanets. The framework contributes to ongoing discussions about false negatives in M-dwarf systems.
+BioSwitch-K2 highlights the importance of considering stellar radiation environments and atmospheric destruction mechanisms when evaluating temperate exoplanets.
 """)
-
 
     st.markdown('<div class="section-title">Planetary and Stellar Context</div>', unsafe_allow_html=True)
 
@@ -212,12 +211,10 @@ BioSwitch-K2 highlights the importance of considering stellar radiation environm
         st.caption("Conceptual artistic rendering inspired by K2-18b.")
 
     st.markdown("""
-K2-18b orbits an M-dwarf star capable of enhanced ultraviolet radiation. Elevated UV flux can shorten atmospheric molecular lifetimes, reducing steady-state biosignature accumulation. This makes the system an ideal motivating case for exploring UV-driven detectability suppression.
+K2-18b orbits an M-dwarf star capable of enhanced ultraviolet radiation. Elevated UV flux can shorten atmospheric molecular lifetimes, reducing steady-state biosignature accumulation.
 """)
 
-    
     st.video("video.mp4")
-
 
 # ---------------Team Page---------------------
 elif page == "Team":
@@ -262,5 +259,4 @@ Our broader mission is to inspire more young women in Guatemala and across Latin
         st.image("images/member4.jpg", width=200)
         st.markdown("**Jimena Alejandra Camey Vásquez**")
         st.markdown("Biochemistry & Microbiology")
-        st.markdown("[LinkedIn](https://linkedin.com/)")
         st.markdown("Email: cam24244@uvg.edu.gt")
