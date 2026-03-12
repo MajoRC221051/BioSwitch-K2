@@ -214,7 +214,7 @@ BioSwitch-K2 highlights the importance of considering stellar radiation environm
 K2-18b orbits an M-dwarf star capable of enhanced ultraviolet radiation. Elevated UV flux can shorten atmospheric molecular lifetimes, reducing steady-state biosignature accumulation.
 """)
 
-    video_file = open("video.mp4", "rb")
+    video_file = open("https://youtu.be/llr8UnwtCes")
     video_bytes = video_file.read()
     st.video(video_bytes)
 
