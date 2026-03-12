@@ -180,6 +180,15 @@ It reveals three structured regimes:
 The Hidden Life regime represents a physically plausible false negative.
 """)
 
+st.markdown('<div class="section-title">Scientific Relevance</div>', unsafe_allow_html=True)
+
+st.markdown("""
+As atmospheric characterization improves, interpretation becomes critical. Non-detection of biosignatures cannot be directly equated with biological absence.
+
+BioSwitch-K2 highlights the importance of considering stellar radiation environments and atmospheric destruction mechanisms when evaluating temperate exoplanets. The framework contributes to ongoing discussions about false negatives in M-dwarf systems.
+""")
+
+
     st.markdown('<div class="section-title">Planetary and Stellar Context</div>', unsafe_allow_html=True)
 
     colA, colB = st.columns([1,1])
@@ -206,14 +215,7 @@ The Hidden Life regime represents a physically plausible false negative.
 K2-18b orbits an M-dwarf star capable of enhanced ultraviolet radiation. Elevated UV flux can shorten atmospheric molecular lifetimes, reducing steady-state biosignature accumulation. This makes the system an ideal motivating case for exploring UV-driven detectability suppression.
 """)
 
-    st.markdown('<div class="section-title">Scientific Relevance</div>', unsafe_allow_html=True)
-
-    st.markdown("""
-As atmospheric characterization improves, interpretation becomes critical. Non-detection of biosignatures cannot be directly equated with biological absence.
-
-BioSwitch-K2 highlights the importance of considering stellar radiation environments and atmospheric destruction mechanisms when evaluating temperate exoplanets. The framework contributes to ongoing discussions about false negatives in M-dwarf systems.
-""")
-
+    
     st.video("video.mp4")
 
 
@@ -231,7 +233,7 @@ We are three undergraduate students from Guatemala pursuing degrees in:
 
 Astrobiology and space sciences are advancing worldwide, yet many regions in Latin America remain underrepresented in global research conversations.
 
-Through HACK-4-SAGES, we aim to contribute meaningfully to interdisciplinary life detection research while strengthening scientific participation from emerging regions.
+Through BioSwitch-K2, we aim to contribute meaningfully to interdisciplinary life detection research while strengthening scientific participation from emerging regions.
 """)
 
     st.markdown("""
