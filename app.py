@@ -1,3 +1,7 @@
+### Mach 11th, 2026
+### Created by: María José Ramírez, Natalia Lemus and Jimena Camey
+### Hack-4-Sages
+
 import streamlit as st
 import numpy as np
 import plotly.graph_objects as go
